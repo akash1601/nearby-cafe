@@ -4,7 +4,7 @@ import axios from 'axios';
 const api = axios.create({
 	baseURL: 'https://api.yelp.com/v3',
 	headers: {
-		Authorization: `Bearer ${['Gv8YS6BtzwMSt-ZqvkwENigEfQPV4yPCSkjjAxKZy7ph0li6EI_0USNa-GejZSqdWxeaURQHaUdJPGlIH_dj8zn2OUileN0Xzku-5zMbYnZmCUSsiM6avka9sLbnXnYx']}`
+		Authorization: `Bearer ${['YELP_API']}`
 	}
 });  
 
